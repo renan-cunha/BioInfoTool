@@ -32,7 +32,7 @@ cd sequenceserver
 Extract data in the first use
 
 ```
-make extract_data
+make get_data
 ```
 
 Run the server
