@@ -1,7 +1,10 @@
-.PHONY: extract_data run_server
+.PHONY: extract_data run_server get_data
 
-## Unzip data
-extract_data:
+## Download and extract data
+get_data:
+	mkdir -p data
+	mkdir -p data/blast_data
+	wget http://bioinfotoolufpa.s3.amazonaws.com/blast_data.zip -O data/blast_data/blast_data.zip
 	unzip data/blast_data/blast_data.zip -d data/blast_data/
 
 ## Run the BLAST server
