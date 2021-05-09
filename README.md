@@ -43,10 +43,12 @@ make run_server
 
 ### Java webapp
 
-Download the ```.jar``` file release from the repository
 
 Run the ```.jar``` file
 
 ```
+cd ../
 java -jar BioinfoTool-0.0.1-SNAPSHOT.jar
 ```
+
+Open the link [http://localhost:8080/](http://localhost:8080/)
