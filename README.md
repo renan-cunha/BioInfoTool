@@ -1,5 +1,6 @@
-# BioInfoTool
+# Drosophila melanogaster Database
 
+Bioinformatics database of drosophila
 
 ## Install
 
