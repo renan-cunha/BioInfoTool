@@ -1,5 +1,6 @@
-# BioInfoTool
+# Drosophila melanogaster Database
 
+Bioinformatics database of drosophila
 
 ## Install
 
@@ -38,7 +39,7 @@ make get_data
 Run the server
 
 ```
-make run_server
+make run_server &
 ```
 
 ### Java webapp
@@ -47,7 +48,6 @@ make run_server
 Run the ```.jar``` file
 
 ```
-cd ../
 java -jar BioinfoTool-0.0.1-SNAPSHOT.jar
 ```
 
