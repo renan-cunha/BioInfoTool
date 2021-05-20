@@ -16,6 +16,48 @@
     </style>
 </head>
 <body>
+    <nav class="bg-primary navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-white active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-white active" aria-current="page" href="#">BLAST</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-white active" aria-current="page" href="#">Árvore Filogenética</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-white active" aria-current="page" href="#">JBrowse</a>
+                    </li>
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Arquivos para Download
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="https://bioinfotoolufpa.s3-sa-east-1.amazonaws.com/cds_from_genomic.fna+(FASTA).gz">CDS from genomic FNA+</a></li>
+                            <li><a class="dropdown-item" href="https://bioinfotoolufpa.s3-sa-east-1.amazonaws.com/genomic.fna+(FASTA).gz">Genomic FNA+</a></li>
+                            <li><a class="dropdown-item" href="https://bioinfotoolufpa.s3-sa-east-1.amazonaws.com/genomic.gbff+(GenBank).gz">Genomic GBFF+</a></li>
+                            <li><a class="dropdown-item" href="https://bioinfotoolufpa.s3-sa-east-1.amazonaws.com/genomic.gff+(General+feature+format).gz">Genomic GFF+</a></li>
+                            <li><a class="dropdown-item" href="https://bioinfotoolufpa.s3-sa-east-1.amazonaws.com/genomic.gtf+(Gene+Transfer+Format).gz">Genomic GTFF+</a></li>
+                            <li><a class="dropdown-item" href="https://bioinfotoolufpa.s3-sa-east-1.amazonaws.com/protein.faa+(FASTA).gz">Protein FAA+</a></li>
+                            <li><a class="dropdown-item" href="https://bioinfotoolufpa.s3-sa-east-1.amazonaws.com/protein.gpff+(GenPept).gz">Protein GPFF+</a></li>
+                            <li><a class="dropdown-item" href="https://bioinfotoolufpa.s3-sa-east-1.amazonaws.com/rna_from_genomic.fna+(FASTA).gz">RNA from genomic FNA+</a></li>
+                            <li><a class="dropdown-item" href="https://bioinfotoolufpa.s3-sa-east-1.amazonaws.com/rna.fna+(FASTA).gz">RNA FNA+</a></li>
+                            <li><a class="dropdown-item" href="https://bioinfotoolufpa.s3-sa-east-1.amazonaws.com/rna.gbff+(GenBank).gz">RNA GBFF+</a></li>
+                            <li><a class="dropdown-item" href="https://bioinfotoolufpa.s3-sa-east-1.amazonaws.com/translated_cds.faa+(FASTA).gz">Translated CDS FAA+</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a class="btn btn-outline-light" aria-current="page" href="https://pt.wikipedia.org/wiki/Drosophila_melanogaster">Sobre</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <iframe src="http://localhost:4567/" title="Sequence Server" />
 </body>
 </html>
