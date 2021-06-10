@@ -1,0 +1,58 @@
+{
+  "assemblies": [
+    {
+      "name": "dmel-all-gene-r6.39",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "dmel-all-gene-r6.39-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "dmel-all-gene-r6.39.fasta"
+          },
+          "faiLocation": {
+            "uri": "dmel-all-gene-r6.39.fasta.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "dmel-all-transcript-r6.39",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "dmel-all-transcript-r6.39-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "dmel-all-transcript-r6.39.fasta"
+          },
+          "faiLocation": {
+            "uri": "dmel-all-transcript-r6.39.fasta.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "dmel-all-miRNA-r6.39",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "dmel-all-miRNA-r6.39-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "dmel-all-miRNA-r6.39.fasta"
+          },
+          "faiLocation": {
+            "uri": "dmel-all-miRNA-r6.39.fasta.fai"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": []
+}
