@@ -1,15 +1,15 @@
-.PHONY: extract_data run_server get_data
+.PHONY: run_server get_data
 
 ## Download and extract data
 get_data:
-	mkdir -p data
-	mkdir -p data/blast_data
-	wget http://bioinfotoolufpa.s3.amazonaws.com/blast_data.zip -O data/blast_data/blast_data.zip
-	unzip data/blast_data/blast_data.zip -d data/blast_data/
+	wget http://ftp.flybase.net/genomes/Drosophila_melanogaster/current/fasta/dmel-all-gene-r6.39.fasta.gz -O dmel-all-gene-r6.39.fasta.gz
+	wget http://ftp.flybase.net/genomes/Drosophila_melanogaster/current/fasta/dmel-all-transcript-r6.39.fasta.gz -O dmel-all-transcript-r6.39.fasta.gz
+	gzip -d dmel-all-transcript-r6.39.fasta.gz
+	gzip -d dmel-all-gene-r6.39.fasta.gz
 
-## Run the BLAST server
+## Run the jbrowser2 server
 run_server:
-	sequenceserver -d data/blast_data/
+	npx serve .
 
 .DEFAULT_GOAL := help
 
