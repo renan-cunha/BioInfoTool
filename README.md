@@ -65,6 +65,9 @@ Run the server
 make run_server &
 ```
 
+### Phylogenetic Tree
+![Phylogenetic Tree](./images/phylo_tree.png)
+
 ### Java webapp
 
 
