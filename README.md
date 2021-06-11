@@ -1,8 +1,8 @@
-# Drosophila melanogaster Database
+# Drosophila melanogaster Web App
 
-Bioinformatics database of drosophila
+This web app consists of a bioinformatic database that uses the fruit fly (Drosophila melanogaster) as reference. In it you can find a genome sequence with Blast, explore the genome with JBrowser, download many kinds of genome files and view its phylogenetic tree.
 
-## Install
+## Installation
 
 ### Requirements
 
