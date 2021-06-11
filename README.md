@@ -24,6 +24,13 @@ sudo apt install npm
 
 ## Usage
 
+Clone the rep
+
+```
+git clone https://github.com/renan-cunha/BioInfoTool.git
+```
+
+
 Extract data in the first use
 
 ```
