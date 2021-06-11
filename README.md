@@ -24,7 +24,7 @@ sudo apt install npm
 
 ## Usage
 
-### Sequence Server
+### 1. Running Sequence Server
 
 Enter the ```sequenceserver``` folder
 
@@ -45,7 +45,7 @@ make run_server &
 ```
 
 
-### JBrowser
+### 2. Running JBrowser
 
 Enter the ```jbrowse2``` folder
 
@@ -65,10 +65,7 @@ Run the server
 make run_server &
 ```
 
-### Phylogenetic Tree
-![Phylogenetic Tree](./images/phylo_tree.png)
-
-### Java webapp
+### 3. Running the Java webapp
 
 
 Run the ```.jar``` file
@@ -78,3 +75,14 @@ java -jar ../BioinfoTool-0.0.1-SNAPSHOT.jar
 ```
 
 Open the link [http://localhost:8080/](http://localhost:8080/)
+
+## Screenshots
+
+![blast](https://raw.githubusercontent.com/renan-cunha/BioInfoTool/main/images/blast.png)
+
+![jbrowser](https://raw.githubusercontent.com/renan-cunha/BioInfoTool/main/images/browser.png)
+
+![phylo tree](https://github.com/renan-cunha/BioInfoTool/blob/main/images/phylo_tree.png)
+
+
+
