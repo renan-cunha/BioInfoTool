@@ -4,7 +4,10 @@ This web app consists of a bioinformatic database that uses the fruit fly (Droso
 
 ## Installation
 
+
 ### Requirements
+
+These are the requirements, you can install them with comands below
 
 * Linux or Mac and Ruby (≥ 1.8.7; preferably ≥ 2.0)
 * NCBI BLAST+ (2.2.31+) 
