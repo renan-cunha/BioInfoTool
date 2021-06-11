@@ -37,3 +37,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+dmel-all-gene-r6.39.fasta
+dmel-all-transcript-r6.39.fasta

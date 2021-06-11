@@ -50,7 +50,7 @@ make run_server &
 Enter the ```jbrowse2``` folder
 
 ```
-cd jbrowse2
+cd ../jbrowse2
 ```
 
 Extract data in the first use
@@ -74,7 +74,7 @@ make run_server &
 Run the ```.jar``` file
 
 ```
-java -jar BioinfoTool-0.0.1-SNAPSHOT.jar
+java -jar ../BioinfoTool-0.0.1-SNAPSHOT.jar
 ```
 
 Open the link [http://localhost:8080/](http://localhost:8080/)
