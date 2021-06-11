@@ -33,6 +33,12 @@ Clone the rep
 git clone https://github.com/renan-cunha/BioInfoTool.git
 ```
 
+Go to the rep folder
+
+```
+cd BioInfoTool/
+```
+
 
 Extract data in the first use
 
